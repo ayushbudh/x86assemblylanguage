@@ -1,9 +1,9 @@
 COMMENT !
 Author: Ayush Budhwani
 Description: This program swaps the elements in the array after each iteration in the loop.
-					 1) For even length of the array it swaps all the consecutive elements pairs in the array.
-					 2) For odd length of the array it swaps all consecutive elements pairs except the last element in the array.
-					 3) Program is flexible in terms of the datatype used,  only lines that needs to be changed are: 21 (to edit the data type), 37, 38 and 39 
+	     1) For even length of the array it swaps all the consecutive elements pairs in the array.
+	     2) For odd length of the array it swaps all consecutive elements pairs except the last element in the array.
+	     3) Program is flexible in terms of the datatype used,  only lines that needs to be changed are: 21 (to edit the data type), 37, 38 and 39 
 						(where register needs to be changed to avoid "operands must have same size error")
 !
 
