@@ -1,18 +1,18 @@
 COMMENT !
  Author: Ayush Budhwani
  Description: This program calculates the sum of the series with common difference between the consecutive terms as 1 using recursion.
-			  The first term of the series starts from the 1.
-			  if N=3
-			  Sum = 1+2+3+4 =10
+	      The first term of the series starts from the 1.
+	      if N=3
+	      Sum = 1+2+3+4 =10
 !
 
-.386															; Indicates that this is a 32-bit program
-.model flat,stdcall												; Flat memory model is used by this program to store program memory and standard calling convention is used
-.stack 4096														; Reserves 4096 Bytes of program memory for this program
+.386											; Indicates that this is a 32-bit program
+.model flat,stdcall									; Flat memory model is used by this program to store program memory and standard calling convention is used
+.stack 4096										; Reserves 4096 Bytes of program memory for this program
 
 ExitProcess PROTO, dwExitCode: dword							; ExitProcess prototype is used to exit the program. A prototype consist of the proto keyword, a comma and an input parameter
-																; in this case the input parameter is dwExitCode.
-.data															; Data Segment- used for assiging memory to variables 
+											; in this case the input parameter is dwExitCode.
+.data											; Data Segment- used for assiging memory to variables 
 Sum DWORD 0														; Variable Sum with value 0
 Input DWORD 4													; Input parameter - Input
 
